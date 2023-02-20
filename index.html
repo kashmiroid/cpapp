@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Simple Website</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f1f1f1;
+		}
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+		nav {
+			background-color: #ddd;
+			padding: 10px;
+			display: flex;
+			justify-content: space-between;
+		}
+		nav a {
+			color: #333;
+			text-decoration: none;
+			padding: 5px;
+		}
+		nav a:hover {
+			background-color: #333;
+			color: #fff;
+		}
+		main {
+			padding: 20px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			align-items: center;
+		}
+		article {
+			background-color: #fff;
+			box-shadow: 0 0 5px rgba(0,0,0,0.1);
+			padding: 20px;
+			margin: 10px;
+			flex-basis: 300px;
+			flex-grow: 1;
+			min-height: 200px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+		article h2 {
+			font-size: 1.5em;
+			margin-bottom: 10px;
+		}
+		article p {
+			margin-top: 10px;
+			text-align: justify;
+		}
+		footer {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Welcome to my simple website!</h1>
+	</header>
+	<nav>
+		<a href="#">Home</a>
+		<a href="#">About</a>
+		<a href="#">Contact</a>
+	</nav>
+	<main>
+		<article>
+			<h2>Article 1</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula elit enim, id mattis elit feugiat id. Integer eget lacus urna. Sed nec ex at mauris varius auctor.</p>
+		</article>
+		<article>
+			<h2>Article 2</h2>
+			<p>Curabitur vitae massa quis nunc lacinia efficitur vitae et magna. Fusce maximus, quam eu scelerisque faucibus, massa elit malesuada elit, eget semper quam odio in turpis.</p>
+		</article>
+		<article>
+			<h2>Article 3</h2>
+			<p>Donec in tellus eu quam pharetra varius. Praesent eleifend consequat nulla, eu commodo turpis rhoncus eget. Etiam in vestibulum ipsum, non eleifend justo. Sed non nisi non enim vehicula commodo.</p>
+		</article>
+	</main>
+	<footer>
+		<p>Copyright &copy; 2023</p>
+	</footer>
+</body>
+</html>
